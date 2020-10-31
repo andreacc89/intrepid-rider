@@ -55,3 +55,56 @@ The game is won whenever the rider goes through all cars and the street is empty
 - printLives
 - printTime
 
+### 4. Player Constructor
+
+**Properties**
+- canvas
+- ctx
+- x position
+- y position
+- width
+- height
+- lives
+- image
+- direction
+
+**Methods**
+- draw
+- move
+- collidedWithObstacle
+- collidedWithScreen
+- catchedBonus
+- removeLife
+- addLife
+
+### 5. Obstacle Constructor
+
+**Properties**
+- canvas
+- ctx
+- x position
+- y position
+- width
+- height
+- row
+- speed
+- direction
+- image
+
+**Methods**
+- draw
+- move
+
+### 6. Bonus Constructor
+
+**Properties**
+- canvas
+- ctx
+- size
+- x position
+- y position
+- image
+
+**Methods**
+- draw
+- move
